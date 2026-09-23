@@ -1,0 +1,22 @@
+[
+  {
+    "path": "candidate-sources.json",
+    "bytes": 3825,
+    "sha256": "4fc3cfa48246ed1ec98855db344cda3ab829efcc138bcc85fb0ad721a33d2e4a"
+  },
+  {
+    "path": "created.png",
+    "bytes": 84208,
+    "sha256": "099e77b3677df5aadd1f3ccdd1a6dcbaf9ad9a911b28c14a966b349856f7cecd"
+  },
+  {
+    "path": "demo.webm",
+    "bytes": 594526,
+    "sha256": "292449e41c3e6c1c39eb1b2a7b5d69a63eefa5c762385737e839cdbdff74929b"
+  },
+  {
+    "path": "narrow.png",
+    "bytes": 105517,
+    "sha256": "d8ef76fc66db987eb214ba3aa14b3f521d7664591a55eb643a991af7ee61d167"
+  }
+]

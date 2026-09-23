@@ -1,0 +1,85 @@
+{
+  "upstream": "tambo-ai/tambo",
+  "tested_base": "0c84ae09499bc9e18fd0bd49f6abe53b526026f3",
+  "scope": "Actual dashboard route and providers with mocked authentication and server transport, visibly labeled fixtures. Final-source video: 11 seconds, 1280 by 960, VP8. No live authenticated backend or real starter conversation is claimed. The existing root theme forces light mode.",
+  "candidates": [
+    {
+      "key": "tambo-onboarding",
+      "files": [
+        {
+          "path": "apps/web/AGENTS.md",
+          "sha256": "7a317086e11ffab0795ebb41ccd0c6693ee90e5e1908f8079869bd487e99cd24"
+        },
+        {
+          "path": "apps/web/__mocks__/trpc-test-provider.tsx",
+          "sha256": "42fc5f67d621a1ace0c7a69cea0d28b61646c0a3b667112576a1887295e1568d"
+        },
+        {
+          "path": "apps/web/app/(authed)/(dashboard)/page.test.tsx",
+          "sha256": "422f61de340c8eb9e3d46679e85f8d90ffc34e1958b699c33578f2b041fa28f3"
+        },
+        {
+          "path": "apps/web/app/(authed)/(dashboard)/page.tsx",
+          "sha256": "c13074af09547ffff1d773751c724bb4a6487e3a5a8b0383c336d0007d781ce6"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding-wizard.tsx",
+          "deleted": true,
+          "baselineSha256": "e159c14339d91d17c2f16b3f1d053bba5ba585a1e7bef64756d06ec13e69bbba"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding/command-copy-button.tsx",
+          "deleted": true,
+          "baselineSha256": "cbd880f5ca5155728fddf7e8098d4242aa3d6460a1a99cdd0a015d9bffd9658f"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding/getting-started-guide.test.tsx",
+          "sha256": "b34228fb8164b2a3cca4865ff83bf8216d28b4e206155934f62872e6af92fa97"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding/getting-started-guide.tsx",
+          "sha256": "190ff7a71fa8bc7d669bfffcb6be97a25e4c1bfe06524c000a65ef84c909fccb"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding/getting-started-state.ts",
+          "sha256": "4ea925df6abb421a0b6aa0fe3334b68726a62e14acefa16cfc217bbb5ab98734"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding/referral-question.test.tsx",
+          "sha256": "c6f8ec0e4caf27b32436e604ae85448daa399e61e99bc5acb7db7d41ccdc26bd"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding/referral-question.tsx",
+          "sha256": "c8a59d09dd701946af1385b1229ce0a5855d53383c737c252d7ed5a265f5d727"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding/setup-command.tsx",
+          "sha256": "ec217a1b69d0fc7af321622b0708eca7a24cc2ce2cc03815d29ca0e0477c78e5"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding/setup-project-form.tsx",
+          "sha256": "c164c68d029e29241352d179601e95e70c21ed304791169a6f75222d4bf55e5d"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/onboarding/template-card.tsx",
+          "deleted": true,
+          "baselineSha256": "fd21e912f6e1198630f74dc4bc124ce073baa5569006ce19f0dfe57f2a119f9f"
+        },
+        {
+          "path": "apps/web/components/dashboard-components/project-overview.tsx",
+          "sha256": "b079ce17d4cecad0cc0d6a0f2b66494b6f7caa50286becdff3f4629aa473b1c9"
+        },
+        {
+          "path": "devdocs/proposals/getting-started/README.md",
+          "sha256": "5f7823f1951f5f8579eb1d03199dc035b72f6ef847ff56fb017d3a1aa7a2b5cf"
+        }
+      ],
+      "patches": [
+        {
+          "name": "tambo-round3.patch",
+          "sha256": "3f45a3f1e144672c4d26e8c8db51b0d122251585f89d3fb90b97253b78f711cc"
+        }
+      ]
+    }
+  ]
+}
